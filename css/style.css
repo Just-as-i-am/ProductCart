@@ -1,0 +1,81 @@
+body{
+ margin: 0;
+ padding: 0;
+ background: #D9ACF5;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+p{
+  color: gray;
+  font-family: 'Montserrat';
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: 700;
+
+}
+.card{
+  width: 45%;
+  height: 30%;
+  background-color: #ffff;
+  border-radius: 20px;
+  margin: 0 auto 0 auto;
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+/************* card button **************/
+.card-btn:hover{
+  background-color: #004d1a;
+}
+.card-btn{
+  background-color: #7FB77E;
+  margin-left: 10%;
+}
+button:hover{
+  background-color: yellow;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0%;
+}
+.price li{
+  display: inline-block;
+  padding-left: 2%;
+}
+.price p{
+  text-decoration: line-through;
+}
+.price h1{
+  color: #26734d;
+}
+.review-text{
+  padding: 2% 3% 2% 3%;
+}
+/******************* Mobile mode********* */
+@media screen and (max-width: 900px) {
+img{
+  border-radius: 10px 10px 0px 0px;
+}
+.card{
+    border-radius: 20px;
+    margin: 5% auto 5% auto;
+}
+.review-text{
+ padding-left: 3%;
+ font-size: 14px;
+ padding-left: 3rem;
+ padding-right: 3rem;
+}
+.card-btn{
+  width:90%;
+  margin-left: 5%;
+
+}
+}
